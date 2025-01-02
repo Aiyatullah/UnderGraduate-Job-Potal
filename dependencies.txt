@@ -1,17 +1,7 @@
-# Frontend Dependencies
-npm install axios@1.7.9
-npm install react@18.3.1
-npm install react-dom@18.3.1
-npm install react-router-dom@7.1.1
-npm install @eslint/js@9.17.0
-npm install @types/react@18.3.18
-npm install @types/react-dom@18.3.5
-npm install @vitejs/plugin-react@4.3.4
-npm install eslint@9.17.0
-npm install eslint-plugin-react@7.37.2
-npm install eslint-plugin-react-hooks@5.0.0
-npm install eslint-plugin-react-refresh@0.4.16
-npm install globals@15.14.0
-npm install vite@6.0.5
-
-npm create vite@latest frontend --template react
+# Backend Dependencies
+pip install flask
+pip install flask_pymongo
+pip install flask_cors
+pip install bson
+pip install docx
+pip install python-docx
