@@ -1,0 +1,107 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: flex-start; /* Align items to the start */
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px; /* Add padding to the container */
+}
+
+.profile-content {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.profile-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #3498db; /* Highlight color for section titles */
+}
+
+.dashboard -section {
+    margin-bottom: 30px; /* Space between sections */
+}
+
+.skills-list, .experience-list, .education-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.experience-item, .education-item {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: 20px;
+}
+
+.edit-button, .logout-button, .resume-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 48%; /* Adjust width for buttons */
+}
+
+.edit-button:hover, .logout-button:hover ,.resume-button:hover {
+    background-color: #3498db;
+    transform: translateY(-2px);
+}
+.generate-button {
+    background-color: #2980b9; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 20px; /* Button padding */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 1rem; /* Increase font size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background color transition */
+}
+
+.generate-button:hover {
+    background-color: #1a6a8a; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+.education-list, .degree-list, .languages-list, .certifications-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.education-list, .degree-list, .languages-list, .certifications-list {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left; /* Align text to the left for better readability */
+}

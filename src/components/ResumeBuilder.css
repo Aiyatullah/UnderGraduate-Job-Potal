@@ -1,0 +1,109 @@
+.resume-builder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items to the start */
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px; /* Add padding to the container */
+}
+
+.resume-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.resume-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 100%; /* Full width */
+    max-width: 600px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the content horizontally */
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in animation for the form */
+}
+
+.resume-form input, .resume-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, opacity 0.5s ease; /* Add opacity transition */
+    font-size: 1rem; /* Increase font size for better readability */
+    opacity: 0; /* Start hidden */
+}
+
+.resume-form input.visible, .resume-form textarea.visible {
+    opacity: 1; /* Fade in */
+}
+
+.resume-form input:focus, .resume-form textarea:focus {
+    border-color: #6a11cb; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: 20px; /* Add space above buttons */
+    width: 100%; /* Full width for button container */
+}
+
+.generate-button, .download-button {
+    background-color: #2980b9; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 20px; /* Button padding */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 1rem; /* Increase font size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background color transition */
+    flex: 1; /* Allow buttons to grow equally */
+    margin: 0 10px; /* Add margin between buttons */
+}
+
+.generate-button:hover, .download-button:hover {
+    background-color: #1a6a8a; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.message {
+    margin-top: 20px; /* Space above message */
+    font-size: 1.2rem; /* Increase font size for message */
+    color: #f39c12; /* Change message color */
+}
+/* Dropdown Styles */
+.resume-form select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #333;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow for Safari */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%232980b9%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2 c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+.resume-form select:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 5px #6a11cb;
+    outline: none;
+}
+
+.resume-form select option {
+    background: white;
+    color: #333;
+}
