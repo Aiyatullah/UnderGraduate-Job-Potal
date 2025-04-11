@@ -1,5 +1,8 @@
-👥 Team Members contributed in this Job Portal
-Aiyatullah Saiyed
-Hansha rathod 
-Omkar Swami
-Rushabh Mistry 
+## 👥 Team Members  
+
+These amazing individuals contributed to the **Job Portal** project:  
+
+✨ **Aiyatullah Saiyed**  
+🚀 **Hansha Rathod**  
+💡 **Omkar Swami**  
+🎯 **Rushabh Mistry**  
